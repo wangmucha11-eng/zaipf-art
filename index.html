@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -1302,9 +1302,29 @@
       `;
     }
 
+    // Split a mixed "中文\n\nEnglish" field and return the part for CURRENT_LANG
+    function langPart(text) {
+      if (!text) return "";
+      const parts = String(text).split(/\n\s*\n/).map(s => s.trim()).filter(Boolean);
+      if (parts.length <= 1) return text;
+      // parts[0] is Chinese block, parts[1] is English block (per site.json convention)
+      const zh = parts[0], en = parts.slice(1).join("\n\n");
+      return CURRENT_LANG === "zh" ? zh : en;
+    }
+    // For "English / 中文" style fields
+    function enZhPart(text) {
+      if (!text) return "";
+      const parts = String(text).split("/").map(s => s.trim());
+      if (parts.length === 1) return text;
+      // assume "English / 中文"
+      return CURRENT_LANG === "zh" ? parts[parts.length - 1] : parts[0];
+    }
+
     function openOverlay(id, targetIndex = 0) {
       const data = SITE.overlays[id];
       if (!data) return;
+      SITE.overlayKey = id;
+      SITE.overlayIndex = targetIndex;
       const card = $("#overlay-card");
       const itemsHtml = (data.items || []).map((item, idx) => {
         const imgs = (item.images || []).map((src) => 
@@ -1314,15 +1334,15 @@
         const metaParts = [
           item.title,
           item.specs,
-          item.media,
+          enZhPart(item.media),
           item.year
         ].filter(Boolean);
         
         return `
           <div class="work-item" id="item-${id}-${idx}">
             <header class="work-item-header" style="text-align: left; width: 100%; margin-bottom: 8rem;">
-              <h1 style="font-family: 'Diatype Variable', sans-serif; font-size: 0.95rem; font-weight: 450; margin-bottom: 2rem; letter-spacing: -0.01em;">${esc(item.title)}</h1>
-              <div style="font-family: 'Diatype Variable', sans-serif; font-size: 0.78rem; line-height: 1.7; color: var(--fg-soft); white-space: pre-line; max-width: 38rem;">${esc(item.statement)}</div>
+              <h1 style="font-family: 'Diatype Variable', sans-serif; font-size: 0.95rem; font-weight: 450; margin-bottom: 2rem; letter-spacing: -0.01em;">${esc(enZhPart(item.title))}</h1>
+              <div style="font-family: 'Diatype Variable', sans-serif; font-size: 0.78rem; line-height: 1.7; color: var(--fg-soft); white-space: pre-line; max-width: 38rem;">${esc(langPart(item.statement))}</div>
             </header>
             
             <div class="work-item-images">${imgs}</div>
@@ -1387,6 +1407,17 @@
         document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
         toggle.querySelectorAll("span").forEach(s => s.classList.toggle("is-active", s.dataset.lang === lang));
         renderBio("#bio-anchor");
+        // re-render an open overlay in the new language
+        const overlay = $("#overlay");
+        if (overlay && overlay.classList.contains("is-open")) {
+          const card = $("#overlay-card");
+          const itemEl = card.querySelector(".work-item");
+          if (itemEl) {
+            const key = SITE.overlayKey || null;
+            const idx = SITE.overlayIndex || 0;
+            openOverlay(key, idx);
+          }
+        }
       };
     }
 
