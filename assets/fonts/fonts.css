@@ -1,0 +1,18 @@
+/* Self-hosted from original Cargo site */
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-Thin.woff2") format("woff2");font-weight:100;font-style:normal;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-ThinItalic.woff2") format("woff2");font-weight:100;font-style:italic;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-LightItalic.woff2") format("woff2");font-weight:300;font-style:italic;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-Book.woff2") format("woff2");font-weight:350;font-style:normal;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-BookItalic.woff2") format("woff2");font-weight:350;font-style:italic;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-RegularItalic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-Medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-MediumItalic.woff2") format("woff2");font-weight:500;font-style:italic;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-BoldItalic.woff2") format("woff2");font-weight:700;font-style:italic;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}
+@font-face{font-family:"Gaisyr";src:url("CargoGaisyr-BlackItalic.woff2") format("woff2");font-weight:900;font-style:italic;font-display:swap}
+@font-face{font-family:"Diatype Variable";src:url("Cargo-DiatypePlusVariable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Diatype Variable";src:url("Cargo-DiatypePlusVariable-Italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap}
+@font-face{font-family:"Diatype Mono Variable";src:url("Cargo-DiatypePlusVariable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
