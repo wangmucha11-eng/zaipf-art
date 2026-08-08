@@ -1,0 +1,536 @@
+{
+  "brand": {
+    "name": "Zai Pengfei",
+    "displayName": "Zai Pengfei",
+    "domain": "",
+    "email": "zai.p.f1994@gmail.com",
+    "bioZh": "宰鹏飞\n生于1994，扬州，中国。现居上海。\n2019年毕业于奥斯陆Rønningen folkehøgskoley艺术专业。\n2017年毕业于云南大学艺术与设计学院绘画系第二工作室。\n\n个展：\n2026\n虚空行驶，Vanguard Gallery，上海（双个展）\n\n2024\n平均律，百空间，上海\n时间织体，仚東堂，北京\n\n2023\n从“崩溃开始”到“晕车药”，HEYAN'ER GALLRY，上海\n\n2020\n无物，TCG诺地卡，昆明\n\n部分展览：\n2026\n巴塞尔艺术展，Vanguard Gallery，香港\n所多玛一百二十天，南柯画廊，上海\n无住，DOSE画廊，上海\n收束与回声，韵美术馆，云南\n\n2025\n轻功，Vanguard Gallery，上海\n幻醒，宁波美术馆，宁波\n大断裂：末世未来考古学，杭州中心美术馆，杭州\n\n2024\n相似游戏，DOSE画廊，上海\n离析，一起画廊，合肥\n出发层，Third Street Gallery，上海\n即兴判断，木曦画廊，上海\n\n2023\n动态刷新，四川美术学院美术馆，重庆\n浮于海，ATTN关注画廊，广州\n风景后，CGK昆明当代美术馆，昆明\n\n2022\n对白驻留艺术家双个展，泰艺术中心，上海\n一隅三生2022草场地青年艺术家群展，北京草场地，北京\n\n2019\n创造，Røna，奥斯陆\n\n2017\n11+1艺术展，TCG诺地卡，昆明\n\n2016\n中国南亚东南亚国际美术展，云南省美术馆，昆明",
+    "bioEn": "Zai Pengfei\nBorn in 1994, Yangzhou, China. Live in Shanghai.\nGraduated from Rønningen folkehøgskole in Oslo, in 2019.\nGraduated from the college of art and design of Yunnan university, in 2017.\n\nSolo Exhibitions：\n2026\nDriving in the Void, Vanguard Gallery, Shanghai\n\n2024\nEqual Temperament, Baiwork, Shanghai\nThe Texture of Time, SANTO HALL, Beijing\n\n2023\nWhen The Crash Happened & Motion Sickness Pills, HEYAN'ER GALLRY, Shanghai\n\n2020\nEmpty World, TCG Nordic, Kunming\n\nSelect Exhibitions：\n2026\nArtBasel, Vanguard, Gallery, Hongkong\n120 DAYS OF SODOM，Nan Ke Gallery，Shanghai\nDwelling Nowhere, DO Gallery, Shanghai\nCONVERGENCE AND ECHO，YUN Museum，Yunnan\n\n2025\nKongfu Ligntness，Vanguard Gallery，Shanghai\nA False Awakening, Ningbo Museum of Art, Ningbo\nArchaeologist, Central Art Museum, Hangzhou\n\n2024\nResemblance Game, DOSE Gallery, Shanghai\nDissociation-analysis, Together Gallery, Hefei\nDeparture Level, Third Street Gallery, Shanghai\nINTUITION, MOODSEA Gallery, Shanghai\n\n2023\nDYNAMIC REFRESH, Art Museum of Sichuan Fine Arts Institute, Chongqing\nADTIFT, ATTN GALLERY, Guangzhou\nAfter Land-scape, CGK, Kunming\n\n2022\nDialogue Art-in-Residence Double Solo Exhibition, Tai Art Center, Shanghai\nA Corner Garden With Light, Cao Chang Di International Art village, Beijing\n\n2019\nCreate, Røna, Oslo\n\n2017\n11+1 Art Exhibition, TCG Nordica, Kunming\n\n2016\nChina.South Asia.Southeast Asia International Art Festival, Yunnan Fine Art Museum, Kunming",
+    "years": "2013 — 2026",
+    "heroMark": "🕳️",
+    "copyright": "© ZAI PENGFEI. ALL RIGHTS RESERVED."
+  },
+  "projects": [],
+  "overlays": {
+    "motion-sickness-pills": {
+      "id": "motion-sickness-pills",
+      "title": "Motion Sickness Pills (《晕车药》)",
+      "items": [
+        {
+          "title": "晕车药 44.1",
+          "specs": "75 × 50 cm × 3",
+          "media": "木板木浆纸木炭矿物颜料丙烯",
+          "year": "2026",
+          "images": [
+            "assets/images-web/page_05_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 44.2",
+          "specs": "24 × 28 cm × 3",
+          "media": "木板木浆纸木炭矿物颜料丙烯",
+          "year": "2026",
+          "images": [
+            "assets/images-web/page_06.jpg"
+          ]
+        },
+        {
+          "title": "晕车药 44.3",
+          "specs": "100 × 70 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2026",
+          "images": [
+            "assets/images-web/page_07_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 44.7",
+          "specs": "46 × 28 × 26 cm",
+          "media": "木板凳木浆纸木炭矿物颜料黄铜",
+          "year": "2026",
+          "images": [
+            "assets/images-web/page_08.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 44.4",
+          "specs": "12 × 31 × 7 cm × 4",
+          "media": "针线盒木浆纸矿物颜料亚克力板棉线钢珠钢针石头",
+          "year": "2026",
+          "images": [
+            "assets/images-web/page_09.jpg"
+          ]
+        },
+        {
+          "title": "晕车药 44.5",
+          "specs": "40 × 30 × 8.5 cm",
+          "media": "木板木浆纸木炭矿物颜料丙烯",
+          "year": "2026",
+          "images": [
+            "assets/images-web/page_10.jpg"
+          ]
+        },
+        {
+          "title": "晕车药 43.8",
+          "specs": "70 × 25 cm × 2",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2026",
+          "images": [
+            "assets/images-web/page_12.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 34.7",
+          "specs": "100 × 70 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_13_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 36.4",
+          "specs": "100 × 70 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_13_2.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 34.5",
+          "specs": "100 × 70 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_13_3.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 43.5",
+          "specs": "30 × 30 cm × 2",
+          "media": "木板镜子宣纸木炭墨水丙烯",
+          "year": "2026",
+          "images": [
+            "assets/images-web/page_14_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 43.3",
+          "specs": "80 × 60 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_15_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 42.0",
+          "specs": "100 × 70 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_16_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 41.9",
+          "specs": "70 × 100 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_17_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 41.0",
+          "specs": "100 × 70 cm × 2",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_19_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 33.2",
+          "specs": "33 × 27 cm × 4",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2023",
+          "images": [
+            "assets/images-web/page_20.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 40.0",
+          "specs": "100 × 140 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_21_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 36.5",
+          "specs": "100 × 140 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_22_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 30.7",
+          "specs": "Multiple Sizes",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2023",
+          "images": [
+            "assets/images-web/page_23.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 29.7",
+          "specs": "140 × 140 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2023",
+          "images": [
+            "assets/images-web/page_24_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 40.7",
+          "specs": "27 × 27 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_26_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 40.4",
+          "specs": "27 × 27 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_26_2.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 40.8",
+          "specs": "27 × 27 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_26_3.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 35.1",
+          "specs": "27 × 27 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_26_4.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 38.7",
+          "specs": "27 × 27 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_27_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 39.2",
+          "specs": "27 × 27 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_27_2.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 38.3",
+          "specs": "27 × 27 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_27_3.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 38.5",
+          "specs": "27 × 27 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_27_4.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 35.6",
+          "specs": "27 × 27 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_27_5.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 37.0",
+          "specs": "27 × 27 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_27_6.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 24.4",
+          "specs": "140 × 140 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2022",
+          "images": [
+            "assets/images-web/page_28_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 43.4",
+          "specs": "100 × 100 cm",
+          "media": "纸本木炭水性笔丙烯",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_30_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 43.0",
+          "specs": "80 × 80 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_31_1.jpeg"
+          ]
+        },
+        {
+          "title": "晕车药 43.1",
+          "specs": "160 × 80 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_32_1.jpeg"
+          ]
+        }
+      ]
+    },
+    "a-rain": {
+      "id": "a-rain",
+      "title": "A Rain (一场雨)",
+      "items": [
+        {
+          "title": "A Rain / 一场雨",
+          "specs": "10 × 10 × 2 cm × n",
+          "media": "Petri dish, Paraffin / 培养皿, 石蜡",
+          "year": "2026",
+          "statement": "水滴入融化的石蜡\n石蜡凝固\n水蒸发\n留下一个空的形状\n\nWater drops into melted paraffin. Paraffin solidifies. Water evaporates. Leaving an empty shape.",
+          "images": [
+            "assets/images-web/page_34_1.jpeg"
+          ]
+        }
+      ]
+    },
+    "a-cup-of-water": {
+      "id": "a-cup-of-water",
+      "title": "A Cup of Water (一杯水)",
+      "items": [
+        {
+          "title": "A Cup of Water / 一杯水",
+          "specs": "10 × 10 cm, 10 × 20 cm",
+          "media": "Iron plate, Rice paper, Charcoal, Acrylic / 铁板, 宣纸, 木炭, 丙烯",
+          "year": "2025",
+          "statement": "100mL的水，九个不同形状的容器。\n\n100mL of water, nine containers of different shapes.",
+          "images": [
+            "assets/images-web/page_35_1.jpeg",
+            "assets/images-web/page_36_1.jpeg",
+            "assets/images-web/page_36_2.jpeg",
+            "assets/images-web/page_36_3.jpeg",
+            "assets/images-web/page_36_4.jpeg",
+            "assets/images-web/page_36_5.jpeg",
+            "assets/images-web/page_36_6.jpeg",
+            "assets/images-web/page_36_7.jpeg",
+            "assets/images-web/page_36_8.jpeg",
+            "assets/images-web/page_36_9.jpeg"
+          ]
+        }
+      ]
+    },
+    "falling-paper": {
+      "id": "falling-paper",
+      "title": "A Piece of Paper Falling (一张纸的飘落)",
+      "items": [
+        {
+          "title": "A Piece of Paper Falling No. 1 / 一张纸的飘落 No. 1",
+          "specs": "34 × 68 cm",
+          "media": "Canvas, Rice paper, Charcoal, Ink, Acrylic / 布面, 宣纸, 木炭, 墨水, 丙烯",
+          "year": "2025",
+          "statement": "一张纸\n重复从同一位置落下\n记录轨迹，角度，位置等信息\n\nA piece of paper\nRepeatedly falling from the same position\nRecording information such as trajectory, angle, and position.",
+          "images": [
+            "assets/images-web/page_37_1.jpeg"
+          ]
+        },
+        {
+          "title": "A Piece of Paper Falling No. 2 - 14 / 一张纸的飘落 No. 2 - 14",
+          "specs": "175 × 155 cm",
+          "media": "Canvas, Rice paper, Charcoal, Ink, Acrylic / 布面, 宣纸, 木炭, 墨水, 丙烯",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_38_1.jpeg"
+          ]
+        },
+        {
+          "title": "A Piece of Paper Falling No. 28 - 40 / 一张纸的飘落 No. 28 - 40",
+          "specs": "175 × 155 cm",
+          "media": "Canvas, Rice paper, Charcoal, Ink, Acrylic / 布面, 宣纸, 木炭, 墨水, 丙烯",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_39_1.jpeg"
+          ]
+        }
+      ]
+    },
+    "sisyphus": {
+      "id": "sisyphus",
+      "title": "Sisyphus (西西弗斯)",
+      "items": [
+        {
+          "title": "Sisyphus / 西西弗斯",
+          "specs": "35 × ? ? ? cm",
+          "media": "Rice paper, Ink / 宣纸, 墨水",
+          "year": "2019 - Present",
+          "statement": "一本经书文件破损，得到一堆乱码。\n抄写乱码\n\nA Buddhist scripture file was damaged, resulting in a pile of garbled code.\nCopying the garbled code.",
+          "images": [
+            "assets/images-web/page_40_1.jpg"
+          ]
+        }
+      ]
+    },
+    "driving-void": {
+      "id": "driving-void",
+      "title": "Driving in the Void (虚空行驶)",
+      "items": [
+        {
+          "title": "Driving in the Void / 虚空行驶",
+          "specs": "300 × 150 cm",
+          "media": "Canvas, Ink / 布面, 墨水",
+          "year": "2019",
+          "statement": "至下而上绘制方块\n极度的身体控制\n误差不可避免的发生\n它们自身构建起一个秩序\n又慢慢摧毁这个秩序\n\nDrawing squares from bottom to top\nExtreme body control\nErrors inevitably occur\nThey construct an order of their own\nAnd slowly destroy that order.",
+          "images": [
+            "assets/images-web/page_41_1.jpeg",
+            "assets/images-web/page_42_1.jpeg"
+          ]
+        }
+      ]
+    },
+    "exh-driving-void": {
+      "id": "exh-driving-void",
+      "title": "Driving in the Void (虚空行驶)",
+      "items": [
+        {
+          "title": "Driving in the Void / 虚空行驶",
+          "specs": "2026.03.12—2026.04.28",
+          "media": "",
+          "year": "上海市静安区曲阜路9弄B1层8号 / B1-8, 9 Qufu Road, Jing'an, Shanghai",
+          "statement": "宰鹏飞的“晕车药”系列来自艺术家在冥想与做梦时的幻觉，由身体与意识缔造的迷宫延伸到画面之中持续生成，重复出现的拱顶，台阶，箭头和曲面并非具有定位意义的明确指引，艺术家一遍遍描画记录使之转为身体体验，并介入与影响着观者对空间和运动的感知。\n\n驾驶作为一种在规则中不断运行推演的行为，融合了逻辑、直觉、经验和情景感知。而李家庆与宰鹏飞二者的实践驶领我们越过作为表象的世界，进入属于创物前的虚空中，在此，推演失去既定的规则与线索，当意义的生成取决于意识的赋予时，作为驾驶者如何重新搭建秩序体系，自我的处境应当依赖自身的体感还是借助外界的因素判断？\n\nZai Pengfei’s “Motion Sickness Medicine” series originates from hallucinations he experienced during meditation and dreaming. Mazes forged by body and consciousness extend into the pictorial field, continuously generating and unfolding. Recurrent vaults, steps, arrows, and curving surfaces appear to promise orientation, yet ultimately refuse to resolve into clear guidance. Through repeated acts of drawing and recording, the artist transforms them into embodied experience, intervening in and reshaping the viewer’s perception of space and movement.\n\nDriving, understood as an ongoing negotiation of rules through logic, intuition, experience, and situational awareness, offers a lens through which the practices of Li Jiaqing and Zai Pengfei move us beyond the world as representation, into a void that exists before form takes shape. Here, inference loses its predetermined rules and coordinates; meaning arises only through the agency of consciousness. As drivers, how might we reconstruct systems of order? Should our orientation rely on embodied perception, or on judgments derived from external conditions?",
+          "images": [
+            "assets/images-web/zl_xukong_1.JPG",
+            "assets/images-web/zl_xukong_2.JPG",
+            "assets/images-web/zl_xukong_3.JPG"
+          ]
+        }
+      ]
+    },
+    "exh-dwelling-nowhere": {
+      "id": "exh-dwelling-nowhere",
+      "title": "Dwelling Nowhere (无住)",
+      "items": [
+        {
+          "title": "Dwelling Nowhere / 无住",
+          "specs": "2026.04.12—2026.05.17",
+          "media": "",
+          "year": "上海市徐汇区五原路212弄7号底楼花园, DOSE画廊 / DOSE Gallery, No.7, 212 Long, Wuyuan Rd. Xuhui District, Shanghai",
+          "statement": "住，是停留、栖居、安放；无住，是不停留与任何一处，不执著于任何一相。不住于形，不住于相，不住于过去，也不住于未来。在流动中生成，也在流动中消散。它们从未真正停留于同一个地方，也从未真正的消失。\n\n宰鹏飞在全新系列作品《一张纸的飘落》里，线条被挤压到纸张的边缘，“我”在唯一的角度观察，观察存在的证据，也是我们在世界中找到安放之处的渴望。一边追问消散，一边追问痕迹。\n\nDwelling is to stay, to inhabit, to place; Dwelling Nowhere is to not stay in any one place, not to cling to any one appearance. Not dwelling in form, not dwelling in appearance, not dwelling in the past, nor dwelling in the future. Generated in flow, dissipated in flow. They never truly stay in the same place, nor do they ever truly disappear.",
+          "images": [
+            "assets/images-web/zl_wuzhu_1.JPG",
+            "assets/images-web/zl_wuzhu_2.JPG",
+            "assets/images-web/zl_wuzhu_3.JPG",
+            "assets/images-web/zl_wuzhu_4.JPG",
+            "assets/images-web/zl_wuzhu_5.JPG",
+            "assets/images-web/zl_wuzhu_6.JPG"
+          ]
+        }
+      ]
+    },
+    "exh-equal-temperament": {
+      "id": "exh-equal-temperament",
+      "title": "Equal Temperament (平均律)",
+      "items": [
+        {
+          "title": "Equal Temperament / 平均律",
+          "specs": "2024.10.20—2024.11.24",
+          "media": "",
+          "year": "百空间香港路 上海市黄浦区香港路117号3楼302 / Rm 302, No.117 Xianggang Rd. Huangpu dist. Shanghai",
+          "statement": "平均律，是音乐创作中一种利用等比数列，将一个八度音程平均分割成十二个半音的调音律制，谱成的旋律具有连贯性且始终保持平均的节奏与音质。这种严谨的作曲规律与艺术家宰鹏飞的绘画方式有着异曲同工之处，循环往复绘制的点与线是谱成乐章的音符，乐感、节奏油然而生，形成静中有动的琴谱，流动而平衡。\n\n艺术家通过长时间的重复劳作，测量、打点、划线、构图、上色…达到一种趋于无意识的反复，将冥想觅得的精神世界的自我观照与对话，架构成打破界限继而无限蔓延的图像空间。他希望引导观众向内观其主观世界，随着浮动的线条感知自我，链接深层意识。\n\nEqual Temperament is a tuning system used in musical composition that uses a geometric progression to divide an octave into twelve equal semitones. This rigorous compositional logic finds an echo in Zai Pengfei’s painting practice. The dots and lines, drawn repeatedly, are like notes composing a movement, where rhythm and musicality arise naturally, forming a musical score that is dynamic within stillness, flowing yet balanced.",
+          "images": [
+            "assets/images-web/zl_pingjunlv_1.jpg",
+            "assets/images-web/zl_pingjunlv_2.jpg",
+            "assets/images-web/zl_pingjunlv_3.jpg",
+            "assets/images-web/zl_pingjunlv_4.jpg",
+            "assets/images-web/zl_pingjunlv_5.jpg",
+            "assets/images-web/zl_pingjunlv_6.jpg"
+          ]
+        }
+      ]
+    },
+    "exh-texture-time": {
+      "id": "exh-texture-time",
+      "title": "The Texture of Time (时间织体)",
+      "items": [
+        {
+          "title": "The Texture of Time / 时间织体",
+          "specs": "2024.04.06—2024.05.06",
+          "media": "宰鹏飞 Zai Pengfei",
+          "year": "北京市顺义区裕丰路1号同里市集B1 / No.1, Yufeng Road, Shunyi District, Beijing",
+          "statement": "对于宰鹏飞来说，自2016年开启的绘画系列“晕车药”是一份与时间共谋的产物，或对抗或记录，或是经由时间追问关于自我与艺术的一切终极问题。宰鹏飞创作的快感来自于将时间消磨、填充、记录、忘却......逝者虽如斯夫，但“晕车药”系列正是对时间的一种图像式反刍——它们像日记一样记录了艺术家每天的状态：神经质的、无聊的、重复的、消耗的......\n\n画面本身的疏密、松紧、结构与质地等可见、可触的物质性特征，便是时间在意识中展开的样态，也是时间之梭以意识与身体为经纬线编成的“织体”。\n\nFor Zai Pengfei, the painting series “Motion Sickness Pills”, initiated in 2016, is a product of complicity with time—either resisting it, documenting it, or through it, questioning ultimate concerns of self and art. Each work is like a slice of time... The density, tension, structure, and texture of the paintings are the visible and tangible manifestations of time unfolding within consciousness, a “texture” woven by the shuttle of time with consciousness and the body as warp and weft.",
+          "images": [
+            "assets/images-web/zl_shijian_1.jpg",
+            "assets/images-web/zl_shijian_2.jpg",
+            "assets/images-web/zl_shijian_3.jpg",
+            "assets/images-web/zl_shijian_4.jpg"
+          ]
+        }
+      ]
+    },
+    "diapers": {
+      "id": "diapers",
+      "title": "Diapers (纸尿裤)",
+      "items": [
+        {
+          "title": "Diapers / 纸尿裤",
+          "specs": "20 × 20 × 16 cm × 5",
+          "media": "Recycled clothing / 回收布料",
+          "year": "2026",
+          "statement": "回收不同职业的服装\n裁剪成纸尿片\n\nRecycling clothing from different professions\nCutting them into diapers.",
+          "images": [
+            "assets/images-web/page_43.jpg",
+            "assets/images-web/page_43_1.jpeg",
+            "assets/images-web/page_43_2.jpeg",
+            "assets/images-web/page_43_3.jpeg",
+            "assets/images-web/page_43_4.jpeg",
+            "assets/images-web/page_43_5.jpeg"
+          ]
+        }
+      ]
+    }
+  }
+}
