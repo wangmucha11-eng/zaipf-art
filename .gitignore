@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor / OS junk
+*.swp
+*~
+.idea/
+.vscode/
+
+# Logs / temp
+*.log
+npm-debug.log*
+
+# Keep original high-res images OUT of the live repo
+# (only hero 111.jpg and images-web compressed versions are deployed)
+assets/images/works/*
+!assets/images/works/111.jpg
+
+# Deploy leftovers
+*.zip
