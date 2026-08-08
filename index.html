@@ -49,7 +49,7 @@
       gap: 1.5rem;
     }
     .nav-left { flex-direction: column; align-items: flex-start; gap: 0.2rem; }
-    .nav-left a, .nav-right a, .lang-toggle {
+    .nav-right a, .lang-toggle {
       font-family: "Diatype Mono Variable", monospace;
       font-size: 0.72rem;
       font-weight: 400;
@@ -60,14 +60,17 @@
       transition: opacity 0.3s ease, color 0.4s ease;
     }
     .nav-right a:hover { opacity: 1 !important; }
-    .nav-left span {
-      font-family: "Diatype Mono Variable", monospace;
-      font-size: 0.72rem;
-      color: var(--fg);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+    .nav-left span, .nav-left a {
+      font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+      font-weight: 600;
+      letter-spacing: -0.03em;
       line-height: 1.2;
+      color: #000000;
       transition: color 0.4s ease;
+    }
+    .nav-brand {
+      text-decoration: none;
     }
     .lang-toggle {
       cursor: pointer;
@@ -139,6 +142,7 @@
 
     /* Header dynamic color */
     .site-nav.is-on-hero .nav-left span,
+    .site-nav.is-on-hero .nav-left a,
     .site-nav.is-on-hero .nav-right a,
     .site-nav.is-on-hero .lang-toggle {
       color: #ffffff;
@@ -169,8 +173,16 @@
     }
     .overlay-head {
       position: fixed;
-      top: 1.5rem; right: 2rem;
+      top: 1.5rem; left: 2rem; right: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 1.5rem;
       z-index: 210;
+    }
+    .lang-toggle-overlay {
+      font-size: 0.72rem;
+      color: var(--fg);
     }
     .overlay-close {
       font-family: "Diatype Mono Variable", monospace;
@@ -254,7 +266,7 @@
       overflow-x: auto;
       gap: 5rem;
       width: 100%;
-      padding: 0 2rem 6rem;
+      padding: 0 2rem 4rem;
       scrollbar-width: none;
       -ms-overflow-style: none;
     }
@@ -276,27 +288,6 @@
     .inner-card img.small-painting {
       padding: 12.75vh 0;
     }
-    .inner-info {
-      margin-top: 2rem;
-      font-family: "Diatype Variable", sans-serif;
-      font-size: 0.85rem;
-      line-height: 1.6;
-      color: var(--fg-soft);
-      text-transform: none;
-      letter-spacing: 0.02em;
-    }
-    .inner-info .info-title {
-      font-family: "Diatype Mono Variable", monospace;
-      font-size: 0.75rem;
-      color: var(--fg);
-      text-transform: uppercase;
-      margin-bottom: 0.5rem;
-      letter-spacing: 0.05em;
-    }
-    .inner-info .info-meta {
-      color: var(--fg-muted);
-      font-size: 0.7rem;
-    }
 
     .slider-wrap {
       position: relative;
@@ -313,7 +304,7 @@
       opacity: 1;
       transition: opacity 0.45s ease;
     }
-    .slider-wrap:has(.inner-slider) .slider-fade { bottom: 6rem; }
+    .slider-wrap:has(.inner-slider) .slider-fade { bottom: 4rem; }
     .slider-wrap.is-at-end .slider-fade {
       opacity: 0;
     }
@@ -436,7 +427,7 @@
 
     .gallery-quote {
       text-align: center;
-      margin: 12.3rem auto 21rem; /* top ≈ 10 lines, bottom tuned */
+      margin: 24rem auto 24rem; /* generous breathing room on both sides */
       max-width: 48rem;
       padding: 0 2rem;
     }
@@ -523,7 +514,6 @@
       .site-nav { padding: 1rem 1.25rem; }
       .nav-right { gap: 0.7rem; }
       .nav-right a { font-size: 0.68rem; }
-      .nav-left span { font-size: 0.68rem; }
       .gallery-quote { margin: 5rem auto 5rem; }
       .section-label { margin: 5rem 0 2.5rem; }
     }
@@ -541,7 +531,7 @@
 <body>
   <header class="site-nav" data-od-id="site-nav">
     <div class="nav-left">
-      <span id="nav-desc">ZAI PENGFEI<br>WORKS & ARCHIVE</span>
+      <a href="index.html" id="nav-desc" class="nav-brand">Zai Pengfei Studio</a>
     </div>
     <nav class="nav-right" data-od-id="nav-links">
       <div class="lang-toggle" id="lang-toggle">
@@ -549,8 +539,7 @@
         <span>/</span>
         <span data-lang="zh">中</span>
       </div>
-      <a href="#bio-anchor" style="opacity: 0.5;">ABOUT</a>
-      <a href="#contact-anchor" style="opacity: 0.5;">CONTACT</a>
+      <a href="about.html" style="opacity: 0.5;">ABOUT</a>
     </nav>
   </header>
 
@@ -563,10 +552,7 @@
         </div>
       </div>
       <div class="cursor-dot" id="cursor-dot"></div>
-      
-      <div id="bio-anchor" class="info-page">
-        <!-- Injected bio content -->
-      </div>
+
 
       <div class="gallery-preview">
         <div class="gallery-quote">
@@ -591,479 +577,105 @@
           <div class="inner-slider" id="inner-slider">
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_05_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 44.1</span>
-                <span class="lang-zh">晕车药 44.1</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Board, Wood pulp paper, Charcoal, Pigment, Acrylic</span>
-                <span class="lang-zh">木板木浆纸木炭矿物颜料丙烯</span>
-                <br>2026 | 75 × 50 cm × 3
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_06.jpg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 44.2</span>
-                <span class="lang-zh">晕车药 44.2</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Board, Wood pulp paper, Charcoal, Pigment, Acrylic</span>
-                <span class="lang-zh">木板木浆纸木炭矿物颜料丙烯</span>
-                <br>2026 | 24 × 28 cm × 3
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_07_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 44.3</span>
-                <span class="lang-zh">晕车药 44.3</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2026 | 100 × 70 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_08.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 44.7</span>
-                <span class="lang-zh">晕车药 44.7</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Stool, Paper, Charcoal, Pigment, Brass</span>
-                <span class="lang-zh">木板凳木浆纸木炭矿物颜料黄铜</span>
-                <br>2026 | 46 × 28 × 26 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_09.jpg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 44.4</span>
-                <span class="lang-zh">晕车药 44.4</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Sewing box, Paper, Pigment, Acrylic, Cotton, Ball, Needle, Stone</span>
-                <span class="lang-zh">针线盒木浆纸矿物颜料亚克力板棉线钢珠钢针石头</span>
-                <br>2026 | 12 × 31 × 7 cm × 4
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_10.jpg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 44.5</span>
-                <span class="lang-zh">晕车药 44.5</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Board, Wood pulp paper, Charcoal, Pigment, Acrylic</span>
-                <span class="lang-zh">木板木浆纸木炭矿物颜料丙烯</span>
-                <br>2026 | 40 × 30 × 8.5 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_12.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 43.8</span>
-                <span class="lang-zh">晕车药 43.8</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2026 | 70 × 25 cm × 2
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_13_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 34.7</span>
-                <span class="lang-zh">晕车药 34.7</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 100 × 70 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_13_2.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 36.4</span>
-                <span class="lang-zh">晕车药 36.4</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 100 × 70 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_13_3.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 34.5</span>
-                <span class="lang-zh">晕车药 34.5</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 100 × 70 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_14_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 43.5</span>
-                <span class="lang-zh">晕车药 43.5</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Board, Mirror, Rice paper, Charcoal, Ink, Acrylic</span>
-                <span class="lang-zh">木板镜子宣纸木炭墨水丙烯</span>
-                <br>2026 | 30 × 30 cm × 2
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_15_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 43.3</span>
-                <span class="lang-zh">晕车药 43.3</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">布面宣纸木浆纸木炭水性笔丙烯</span>
-                <br>2025 | 80 × 60 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_16_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 42.0</span>
-                <span class="lang-zh">晕车药 42.0</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2025 | 100 × 70 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_17_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 41.9</span>
-                <span class="lang-zh">晕车药 41.9</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2025 | 70 × 100 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_19_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 41.0</span>
-                <span class="lang-zh">晕车药 41.0</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 100 × 70 cm × 2
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_20.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 33.2</span>
-                <span class="lang-zh">晕车药 33.2</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2023 | 33 × 27 cm × 4
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_21_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 40.0</span>
-                <span class="lang-zh">晕车药 40.0</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 100 × 140 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_22_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 36.5</span>
-                <span class="lang-zh">晕车药 36.5</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 100 × 140 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_23.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 30.7</span>
-                <span class="lang-zh">晕车药 30.7</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2023 | Multiple Sizes
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_24_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 29.7</span>
-                <span class="lang-zh">晕车药 29.7</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2023 | 140 × 140 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_26_1.jpeg" alt="" class="small-painting">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 40.7</span>
-                <span class="lang-zh">晕车药 40.7</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 27 × 27 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_26_2.jpeg" alt="" class="small-painting">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 40.4</span>
-                <span class="lang-zh">晕车药 40.4</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 27 × 27 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_26_3.jpeg" alt="" class="small-painting">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 40.8</span>
-                <span class="lang-zh">晕车药 40.8</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 27 × 27 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_26_4.jpeg" alt="" class="small-painting">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 35.1</span>
-                <span class="lang-zh">晕车药 35.1</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 27 × 27 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_27_1.jpeg" alt="" class="small-painting">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 38.7</span>
-                <span class="lang-zh">晕车药 38.7</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 27 × 27 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_27_2.jpeg" alt="" class="small-painting">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 39.2</span>
-                <span class="lang-zh">晕车药 39.2</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 27 × 27 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_27_3.jpeg" alt="" class="small-painting">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 38.3</span>
-                <span class="lang-zh">晕车药 38.3</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 27 × 27 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_27_4.jpeg" alt="" class="small-painting">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 38.5</span>
-                <span class="lang-zh">晕车药 38.5</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 27 × 27 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_27_5.jpeg" alt="" class="small-painting">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 35.6</span>
-                <span class="lang-zh">晕车药 35.6</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 27 × 27 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_27_6.jpeg" alt="" class="small-painting">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 37.0</span>
-                <span class="lang-zh">晕车药 37.0</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2024 | 27 × 27 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_28_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 24.4</span>
-                <span class="lang-zh">晕车药 24.4</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2022 | 140 × 140 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_30_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 43.4</span>
-                <span class="lang-zh">晕车药 43.4</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">纸本木炭水性笔丙烯</span>
-                <br>2025 | 100 × 100 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_31_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 43.0</span>
-                <span class="lang-zh">晕车药 43.0</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">布面宣纸木浆纸木炭水性笔丙烯</span>
-                <br>2025 | 80 × 80 cm
-              </div>
-            </div>
           </div>
           <div class="inner-card">
             <img loading="lazy" decoding="async" src="assets/images-web/page_32_1.jpeg" alt="">
-            <div class="inner-info">
-              <div class="info-title">
-                <span class="lang-en">Motion Sickness Pills 43.1</span>
-                <span class="lang-zh">晕车药 43.1</span>
-              </div>
-              <div class="info-meta">
-                <span class="lang-en">Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic</span>
-                <span class="lang-zh">布面宣纸木浆纸木炭水性笔丙烯</span>
-                <br>2025 | 160 × 80 cm
-              </div>
-            </div>
           </div>
           </div>
           <div class="slider-fade" aria-hidden="true"></div>
@@ -1183,6 +795,11 @@
   <div class="overlay-root" id="overlay-root" data-od-id="project-overlay" aria-hidden="true">
     <div class="overlay-head">
       <button type="button" class="overlay-close" id="overlay-close" aria-label="关闭" data-od-id="overlay-close">CLOSE</button>
+      <div class="lang-toggle lang-toggle-overlay" id="lang-toggle-overlay">
+        <span data-lang="en" class="is-active">EN</span>
+        <span>/</span>
+        <span data-lang="zh">中</span>
+      </div>
     </div>
     <div class="overlay-container">
       <article class="overlay-content" id="overlay-card"></article>
@@ -1224,95 +841,31 @@
       document.title = name;
     }
 
-    function renderBio(targetId) {
-      const b = SITE.brand;
-      const root = $(targetId);
-      if (!root) return;
-      
-      const bioText = CURRENT_LANG === "zh" ? b.bioZh : b.bioEn;
-      const sidebarLabel = CURRENT_LANG === "zh" ? "关于艺术家" : "ABOUT THE ARTIST";
-      const contactLabel = CURRENT_LANG === "zh" ? "联系方式" : "CONTACT";
-      
-      const redLabel = CURRENT_LANG === "zh" ? "小红书" : "RED";
-      const emailLabel = CURRENT_LANG === "zh" ? "邮箱" : "Email";
 
-      // Parse bioText into structured HTML
-      const lines = bioText.split("\n");
-      let structuredHtml = "";
-      let lastYear = "";
-      let pendingYear = "";
-
-      lines.forEach(line => {
-        const trimmed = line.trim();
-        if (!trimmed) {
-          structuredHtml += '<div style="height: 0.8rem;"></div>';
-          pendingYear = "";
-          lastYear = ""; 
-          return;
-        }
-
-        // 1. Check if line is just a 4-digit year
-        if (/^\d{4}$/.test(trimmed)) {
-          pendingYear = trimmed;
-          return;
-        }
-
-        // 2. Check if line starts with a year (e.g. "2026   Exhibition")
-        const yearMatch = trimmed.match(/^(\d{4})\s+(.+)/);
-        let currentYear = "";
-        let content = trimmed;
-
-        if (yearMatch) {
-          currentYear = yearMatch[1];
-          content = yearMatch[2];
-        } else if (pendingYear) {
-          currentYear = pendingYear;
-        }
-
-        if (currentYear) {
-          const displayYear = (currentYear === lastYear) ? "" : currentYear;
-          lastYear = currentYear;
-          structuredHtml += `
-            <div class="bio-item">
-              <div class="bio-item-year">${displayYear}</div>
-              <div class="bio-item-text">${esc(content)}</div>
-            </div>
-          `;
-        } else {
-          // 3. Regular text (intro or section titles)
-          structuredHtml += `<div class="bio-text-block">${esc(trimmed)}</div>`;
-          lastYear = ""; 
-          pendingYear = "";
-        }
-      });
-      
-      root.innerHTML = `
-        <div class="bio-content">
-          <aside class="bio-sidebar">${sidebarLabel}</aside>
-          <div class="bio-main">${structuredHtml}</div>
-        </div>
-        <div class="bio-content" id="contact-anchor" style="margin-top: 6rem;">
-          <aside class="bio-sidebar">${contactLabel}</aside>
-          <div class="bio-main contact-list">
-            <a href="https://www.instagram.com/zai.p.f9527/" target="_blank">Instagram: zai.p.f9527</a>
-            <a href="https://www.xiaohongshu.com/user/profile/6020a8240000000001009855?xsec_token=AB2pSX2a-8gtW7vW9HMvDB-yBia-CLKUSutzrWlKc7xRY%3D&amp;xsec_source=pc_search" target="_blank">${redLabel}: Zai.P.F</a>
-            <a href="mailto:zai.p.f1994@gmail.com">${emailLabel}: zai.p.f1994@gmail.com</a>
-          </div>
-        </div>
-      `;
-    }
-
-    // Split a mixed "中文\n\nEnglish" field and return the part for CURRENT_LANG
+    // Split a mixed "中文\n\nEnglish" field and return the part for CURRENT_LANG.
+    // Groups consecutive blocks by language (zh blocks → zh version, en blocks → en version).
     function langPart(text) {
       if (!text) return "";
       const parts = String(text).split(/\n\s*\n/).map(s => s.trim()).filter(Boolean);
       if (parts.length <= 1) return text;
-      // parts[0] is Chinese block, parts[1] is English block (per site.json convention)
-      const zh = parts[0], en = parts.slice(1).join("\n\n");
+      const zhBlocks = [], enBlocks = [];
+      for (const p of parts) {
+        if (/[\u4e00-\u9fff]/.test(p)) zhBlocks.push(p);
+        else if (/[A-Za-z]{2,}/.test(p)) enBlocks.push(p);
+        else zhBlocks.push(p);
+      }
+      const zh = zhBlocks.join("\n\n"), en = enBlocks.join("\n\n");
+      if (!en) return zh;
+      if (!zh) return en;
       return CURRENT_LANG === "zh" ? zh : en;
     }
-    // For "English / 中文" style fields
-    function enZhPart(text) {
+    // For "English / 中文" style fields — prefers explicit en/zh keys on the item
+    function enZhPart(text, item, enKey, zhKey) {
+      if (item) {
+        const en = item[enKey], zh = item[zhKey];
+        if (en && zh) return CURRENT_LANG === "zh" ? zh : en;
+        if (en) return CURRENT_LANG === "zh" ? (zh || text) : en;
+      }
       if (!text) return "";
       const parts = String(text).split("/").map(s => s.trim());
       if (parts.length === 1) return text;
@@ -1321,6 +874,10 @@
     }
 
     function openOverlay(id, targetIndex = 0) {
+      // defensive: keep CURRENT_LANG in sync with the document lang attribute
+      const docLang = document.documentElement.getAttribute("lang");
+      if (docLang === "zh-CN") CURRENT_LANG = "zh";
+      else if (docLang === "en") CURRENT_LANG = "en";
       const data = SITE.overlays[id];
       if (!data) return;
       SITE.overlayKey = id;
@@ -1332,16 +889,16 @@
         ).join("");
         
         const metaParts = [
-          item.title,
+          enZhPart(item.title, item, "titleEn", "title"),
           item.specs,
-          enZhPart(item.media),
+          enZhPart(item.media, item, "mediaEn", "media"),
           item.year
         ].filter(Boolean);
         
         return `
           <div class="work-item" id="item-${id}-${idx}">
             <header class="work-item-header" style="text-align: left; width: 100%; margin-bottom: 8rem;">
-              <h1 style="font-family: 'Diatype Variable', sans-serif; font-size: 0.95rem; font-weight: 450; margin-bottom: 2rem; letter-spacing: -0.01em;">${esc(enZhPart(item.title))}</h1>
+              <h1 style="font-family: 'Diatype Variable', sans-serif; font-size: 0.95rem; font-weight: 450; margin-bottom: 2rem; letter-spacing: -0.01em;">${esc(enZhPart(item.title, item, "titleEn", "title"))}</h1>
               <div style="font-family: 'Diatype Variable', sans-serif; font-size: 0.78rem; line-height: 1.7; color: var(--fg-soft); white-space: pre-line; max-width: 38rem;">${esc(langPart(item.statement))}</div>
             </header>
             
@@ -1399,26 +956,31 @@
     }
 
     function bindLangToggle() {
-      const toggle = $("#lang-toggle");
-      toggle.onclick = (e) => {
-        const lang = e.target.dataset.lang;
-        if (!lang) return;
-        CURRENT_LANG = lang;
-        document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
-        toggle.querySelectorAll("span").forEach(s => s.classList.toggle("is-active", s.dataset.lang === lang));
-        renderBio("#bio-anchor");
-        // re-render an open overlay in the new language
-        const overlay = $("#overlay");
-        if (overlay && overlay.classList.contains("is-open")) {
-          const card = $("#overlay-card");
-          const itemEl = card.querySelector(".work-item");
-          if (itemEl) {
-            const key = SITE.overlayKey || null;
-            const idx = SITE.overlayIndex || 0;
-            openOverlay(key, idx);
-          }
-        }
-      };
+      const toggles = [$("#lang-toggle"), $("#lang-toggle-overlay")].filter(Boolean);
+      toggles.forEach(toggle => {
+        toggle.onclick = (e) => {
+          const lang = e.target.dataset.lang;
+          if (!lang) return;
+          setLanguage(lang);
+        };
+      });
+    }
+
+    function setLanguage(lang) {
+      if (lang !== "en" && lang !== "zh") return;
+      CURRENT_LANG = lang;
+      document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+      // sync active state on every toggle (nav + overlay)
+      [$("#lang-toggle"), $("#lang-toggle-overlay")].forEach(t => {
+        if (t) t.querySelectorAll("span").forEach(s => s.classList.toggle("is-active", s.dataset.lang === lang));
+      });
+      // re-render an open overlay in the new language, preserving scroll position
+      const overlay = $("#overlay-root");
+      if (overlay && overlay.classList.contains("is-open")) {
+        const scrolled = overlay.scrollTop;
+        openOverlay(SITE.overlayKey, SITE.overlayIndex);
+        requestAnimationFrame(() => { overlay.scrollTop = scrolled; });
+      }
     }
 
     function bindNav() {
@@ -1694,7 +1256,6 @@
       initImageProtection();
       initSliderFade();
       applyBrand();
-      renderBio("#bio-anchor");
       bindLangToggle();
       bindNav();
       initCursor();
