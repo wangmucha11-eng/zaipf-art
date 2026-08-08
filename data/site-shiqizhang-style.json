@@ -1,0 +1,120 @@
+{
+  "brand": {
+    "name": "Mucha Wang",
+    "displayName": "Mucha Wang",
+    "domain": "",
+    "email": "wangmucha11@gmail.com",
+    "instagram": "",
+    "instagramUrl": "",
+    "taglineZh": "记录那些未被命名的状态\n游离的、梦境的、自我的",
+    "taglineEn": "Recording unnamed states — floating, dreamlike, self.",
+    "years": "2013 — 2026",
+    "heroMark": "🕳️",
+    "about": "记录那些未被命名的状态——游离的、梦境的、自我的。\n\nRecording unnamed states — floating, dreamlike, self.",
+    "works": [
+      "Dormant Grey",
+      "Perfect Blue",
+      "Overexposed White",
+      "Cold Oxygen"
+    ],
+    "copyright": "© 2013–2026 Mucha Wang. All rights reserved.",
+    "availabilityLabel": "",
+    "availability": []
+  },
+  "projects": [
+    {
+      "id": "dormant-grey",
+      "title": "Dormant Grey",
+      "year": "2013 — 2026",
+      "overlay": "dormant-grey",
+      "images": [
+        {
+          "src": "assets/images/mucha-work.jpg",
+          "w": 2311,
+          "h": 3466,
+          "caption": "01 / 12"
+        }
+      ]
+    },
+    {
+      "id": "perfect-blue",
+      "title": "Perfect Blue",
+      "year": "2013 — 2026",
+      "overlay": "perfect-blue",
+      "images": [
+        {
+          "src": "assets/images/Perfect-Blue.jpg",
+          "w": 2311,
+          "h": 3466,
+          "caption": "01 / 12"
+        }
+      ]
+    },
+    {
+      "id": "overexposed-white",
+      "title": "Overexposed White",
+      "year": "2013 — 2026",
+      "overlay": "overexposed-white",
+      "images": [
+        {
+          "src": "assets/images/Overexposed-White.jpg",
+          "w": 2311,
+          "h": 3466,
+          "caption": "01 / 12"
+        }
+      ]
+    },
+    {
+      "id": "cold-oxygen",
+      "title": "Cold Oxygen",
+      "year": "2013 — 2026",
+      "overlay": "cold-oxygen",
+      "images": [
+        {
+          "src": "assets/images/Cold-Oxygen.jpg",
+          "w": 2311,
+          "h": 3466,
+          "caption": "01 / 12"
+        }
+      ]
+    }
+  ],
+  "overlays": {
+    "dormant-grey": {
+      "id": "dormant-grey",
+      "title": "Dormant Grey",
+      "images": [
+        { "src": "assets/images/mucha-work.jpg", "w": 2311, "h": 3466 }
+      ],
+      "details": "Dormant Grey\n2013 — 2026",
+      "overview": "记录那些未被命名的状态——游离的、梦境的、自我的。\n\nRecording unnamed states — floating, dreamlike, self."
+    },
+    "perfect-blue": {
+      "id": "perfect-blue",
+      "title": "Perfect Blue",
+      "images": [
+        { "src": "assets/images/Perfect-Blue.jpg", "w": 2311, "h": 3466 }
+      ],
+      "details": "Perfect Blue\n2013 — 2026",
+      "overview": "记录那些未被命名的状态——游离的、梦境的、自我的。\n\nRecording unnamed states — floating, dreamlike, self."
+    },
+    "overexposed-white": {
+      "id": "overexposed-white",
+      "title": "Overexposed White",
+      "images": [
+        { "src": "assets/images/Overexposed-White.jpg", "w": 2311, "h": 3466 }
+      ],
+      "details": "Overexposed White\n2013 — 2026",
+      "overview": "记录那些未被命名的状态——游离的、梦境的、自我的。\n\nRecording unnamed states — floating, dreamlike, self."
+    },
+    "cold-oxygen": {
+      "id": "cold-oxygen",
+      "title": "Cold Oxygen",
+      "images": [
+        { "src": "assets/images/Cold-Oxygen.jpg", "w": 2311, "h": 3466 }
+      ],
+      "details": "Cold Oxygen\n2013 — 2026",
+      "overview": "记录那些未被命名的状态——游离的、梦境的、自我的。\n\nRecording unnamed states — floating, dreamlike, self."
+    }
+  }
+}
