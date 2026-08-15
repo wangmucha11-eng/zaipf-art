@@ -17,6 +17,28 @@
       "title": "Motion Sickness Pills (《晕车药》)",
       "items": [
         {
+          "title": "晕车药 44.9",
+          "specs": "70 × 60 cm",
+          "media": "木板木浆纸木炭矿物颜料丙烯钢柱",
+          "mediaEn": "Wood panel, Wood pulp paper, Charcoal, Mineral pigment, Acrylic, Steel column",
+          "year": "2026",
+          "images": [
+            "assets/images-web/page_01_1.png"
+          ],
+          "titleEn": "Motion Sickness Pills 44.9"
+        },
+        {
+          "title": "晕车药 44.8",
+          "specs": "34 × 22 cm",
+          "media": "木板木浆纸木炭矿物颜料丙烯玻璃",
+          "mediaEn": "Wood panel, Wood pulp paper, Charcoal, Mineral pigment, Acrylic, Glass",
+          "year": "2026",
+          "images": [
+            "assets/images-web/page_02_1.JPG"
+          ],
+          "titleEn": "Motion Sickness Pills 44.8"
+        },
+        {
           "title": "晕车药 44.1",
           "specs": "75 × 50 cm × 3",
           "media": "木板木浆纸木炭矿物颜料丙烯",
@@ -143,7 +165,7 @@
           "media": "布面宣纸木浆纸木炭水性笔丙烯",
           "year": "2025",
           "images": [
-            "assets/images-web/page_15_1.jpeg"
+            "assets/images-web/page_15_1.png"
           ],
           "titleEn": "Motion Sickness Pills 43.3",
           "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
@@ -158,6 +180,17 @@
           ],
           "titleEn": "Motion Sickness Pills 42.0",
           "mediaEn": "Paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 41.7",
+          "specs": "35 × 20 × 3 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_45_1.png"
+          ],
+          "titleEn": "Motion Sickness Pills 41.7",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
         },
         {
           "title": "晕车药 41.9",
@@ -182,6 +215,50 @@
           "mediaEn": "Paper, Charcoal, Water-based pen, Acrylic"
         },
         {
+          "title": "晕车药 41.1",
+          "specs": "27 × 27 cm × n",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_48_1.png"
+          ],
+          "titleEn": "Motion Sickness Pills 41.1",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 39.9",
+          "specs": "100 × 70 cm × 2",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_56.png"
+          ],
+          "titleEn": "Motion Sickness Pills 39.9",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 41.3",
+          "specs": "100 × 100 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_47_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 41.3",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 41.6",
+          "specs": "70 × 100 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_46_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 41.6",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
           "title": "晕车药 33.2",
           "specs": "33 × 27 cm × 4",
           "media": "纸本木炭水性笔丙烯",
@@ -191,6 +268,39 @@
           ],
           "titleEn": "Motion Sickness Pills 33.2",
           "mediaEn": "Paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 32.1",
+          "specs": "70 × 70 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2023",
+          "images": [
+            "assets/images-web/page_63_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 32.1",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 31.7",
+          "specs": "100 × 70 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2023",
+          "images": [
+            "assets/images-web/page_64_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 31.7",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 31.8",
+          "specs": "70 × 70 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2023",
+          "images": [
+            "assets/images-web/page_65_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 31.8",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
         },
         {
           "title": "晕车药 40.0",
@@ -204,6 +314,28 @@
           "mediaEn": "Paper, Charcoal, Water-based pen, Acrylic"
         },
         {
+          "title": "晕车药 11.2",
+          "specs": "100 × 100 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2021",
+          "images": [
+            "assets/images-web/page_74_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 11.2",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 34.8",
+          "specs": "100 × 30 cm × 4",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_62_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 34.8",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
           "title": "晕车药 36.5",
           "specs": "100 × 140 cm",
           "media": "纸本木炭水性笔丙烯",
@@ -213,6 +345,61 @@
           ],
           "titleEn": "Motion Sickness Pills 36.5",
           "mediaEn": "Paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 36.6",
+          "specs": "100 × 30 cm × 6",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_61_1.png"
+          ],
+          "titleEn": "Motion Sickness Pills 36.6",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 30.9",
+          "specs": "左140 × 80 cm / 中140 × 140 cm / 右140 × 80 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2023",
+          "images": [
+            "assets/images-web/page_67.png"
+          ],
+          "titleEn": "Motion Sickness Pills 30.9",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 34.6",
+          "specs": "70 × 70 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_60_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 34.6",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 37.5",
+          "specs": "70 × 100 cm × 2",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_58.png"
+          ],
+          "titleEn": "Motion Sickness Pills 37.5",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 27.7",
+          "specs": "70 × 100 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2023",
+          "images": [
+            "assets/images-web/page_71_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 27.7",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
         },
         {
           "title": "晕车药 30.7",
@@ -226,6 +413,17 @@
           "mediaEn": "Paper, Charcoal, Water-based pen, Acrylic"
         },
         {
+          "title": "晕车药 30.6",
+          "specs": "140 × 140 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2023",
+          "images": [
+            "assets/images-web/page_69_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 30.6",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
           "title": "晕车药 29.7",
           "specs": "140 × 140 cm",
           "media": "纸本木炭水性笔丙烯",
@@ -235,6 +433,94 @@
           ],
           "titleEn": "Motion Sickness Pills 29.7",
           "mediaEn": "Paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 29.7",
+          "specs": "140 × 140 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2023",
+          "images": [
+            "assets/images-web/page_70_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 29.7",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 40.3",
+          "specs": "27 × 27 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_49_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 40.3",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 40.5",
+          "specs": "27 × 27 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_50_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 40.5",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 40.1",
+          "specs": "27 × 27 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_51_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 40.1",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 40.2",
+          "specs": "27 × 27 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_52_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 40.2",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 35.7",
+          "specs": "27 × 27 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_53_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 35.7",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 35.8",
+          "specs": "27 × 27 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_54_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 35.8",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 34.9",
+          "specs": "29 × 27 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2024",
+          "images": [
+            "assets/images-web/page_55_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 34.9",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
         },
         {
           "title": "晕车药 40.7",
@@ -347,6 +633,28 @@
           "mediaEn": "Paper, Charcoal, Water-based pen, Acrylic"
         },
         {
+          "title": "晕车药 24.8",
+          "specs": "140 × 140 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2022",
+          "images": [
+            "assets/images-web/page_72_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 24.8",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
+          "title": "晕车药 26.6",
+          "specs": "100 × 100 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2022",
+          "images": [
+            "assets/images-web/page_73_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 26.6",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
           "title": "晕车药 24.4",
           "specs": "140 × 140 cm",
           "media": "纸本木炭水性笔丙烯",
@@ -380,8 +688,19 @@
           "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
         },
         {
+          "title": "晕车药 42.9",
+          "specs": "120 × 90 cm",
+          "media": "布面宣纸木浆纸木炭水性笔丙烯",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_44_1.jpeg"
+          ],
+          "titleEn": "Motion Sickness Pills 42.9",
+          "mediaEn": "Canvas, Rice paper, Wood pulp paper, Charcoal, Water-based pen, Acrylic"
+        },
+        {
           "title": "晕车药 43.1",
-          "specs": "160 × 80 cm",
+          "specs": "上: 60 × 80 cm / 下: 160 × 80 cm",
           "media": "布面宣纸木浆纸木炭水性笔丙烯",
           "year": "2025",
           "images": [
@@ -403,7 +722,8 @@
           "year": "2026",
           "statement": "水滴入融化的石蜡\n石蜡凝固\n水蒸发\n留下一个空的形状\n\nWater drops into melted paraffin. Paraffin solidifies. Water evaporates. Leaving an empty shape.",
           "images": [
-            "assets/images-web/page_34_1.jpeg"
+            "assets/images-web/page_34_1.jpeg",
+            "assets/images-web/page_77_1.jpeg"
           ]
         }
       ]
@@ -440,29 +760,52 @@
         {
           "title": "A Piece of Paper Falling No. 1 / 一张纸的飘落 No. 1",
           "specs": "34 × 68 cm",
-          "media": "Canvas, Rice paper, Charcoal, Ink, Acrylic / 布面, 宣纸, 木炭, 墨水, 丙烯",
+          "media": "布面, 宣纸, 木炭, 墨水, 丙烯",
           "year": "2025",
           "statement": "一张纸\n重复从同一位置落下\n记录轨迹，角度，位置等信息\n\nA piece of paper\nRepeatedly falling from the same position\nRecording information such as trajectory, angle, and position.",
           "images": [
             "assets/images-web/page_37_1.jpeg"
-          ]
+          ],
+          "mediaEn": "Canvas, Rice paper, Charcoal, Ink, Acrylic"
         },
         {
           "title": "A Piece of Paper Falling No. 2 - 14 / 一张纸的飘落 No. 2 - 14",
           "specs": "175 × 155 cm",
-          "media": "Canvas, Rice paper, Charcoal, Ink, Acrylic / 布面, 宣纸, 木炭, 墨水, 丙烯",
+          "media": "布面, 宣纸, 木炭, 墨水, 丙烯",
           "year": "2025",
           "images": [
             "assets/images-web/page_38_1.jpeg"
-          ]
+          ],
+          "mediaEn": "Canvas, Rice paper, Charcoal, Ink, Acrylic"
         },
         {
           "title": "A Piece of Paper Falling No. 28 - 40 / 一张纸的飘落 No. 28 - 40",
           "specs": "175 × 155 cm",
-          "media": "Canvas, Rice paper, Charcoal, Ink, Acrylic / 布面, 宣纸, 木炭, 墨水, 丙烯",
+          "media": "布面, 宣纸, 木炭, 墨水, 丙烯",
           "year": "2025",
           "images": [
             "assets/images-web/page_39_1.jpeg"
+          ],
+          "mediaEn": "Canvas, Rice paper, Charcoal, Ink, Acrylic"
+        },
+        {
+          "title": "A Piece of Paper Falling No. 15 - 27 / 一张纸的飘落 No. 15 - 27",
+          "specs": "175 × 150 cm",
+          "media": "布面宣纸木炭墨水丙烯",
+          "mediaEn": "Canvas, Rice paper, Charcoal, Ink, Acrylic",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_75_1.jpeg"
+          ]
+        },
+        {
+          "title": "A Piece of Paper Falling No. 42 - 59 / 一张纸的飘落 No. 42 - 59",
+          "specs": "175 × 150 cm",
+          "media": "布面宣纸木炭墨水丙烯",
+          "mediaEn": "Canvas, Rice paper, Charcoal, Ink, Acrylic",
+          "year": "2025",
+          "images": [
+            "assets/images-web/page_76_1.jpeg"
           ]
         }
       ]
